@@ -16,4 +16,3 @@ use Illuminate\Support\Facades\Route;
 Route::get('/congratulations', function(){
     return view('congurations', ['name' => 'Sabina Teleskumar']);
 });
-
